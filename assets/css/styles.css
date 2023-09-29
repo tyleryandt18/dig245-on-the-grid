@@ -1,14 +1,34 @@
 
 /* css */
 
+/* HTML Tags */
 h1 {
     text-align: center;
     font-family: 'UnifrakturMaguntia', cursive;
-    padding: 15px 15px 0 15px;
+    padding: 20px 15px 0 15px;
     font-size: 65px;
+    top: 15px;
+}
+
+h6 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
 
 hr {
     border-top: 1px solid black;
-    width: 80%;
 }
+
+p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Custom Classes */
+.col-12 {
+    padding: 15px;
+}
+/*.col-lg-6 {
+    border-right: 1px solid lightgray;
+}*/
